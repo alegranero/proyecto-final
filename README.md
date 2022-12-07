@@ -1,4 +1,5 @@
 # proyecto-final
 Mi proyecto final
 
-#comenzamos a trabajar con Django
+# Arrancamos con Django
+Este es un commit antes del conflicto
