@@ -7,7 +7,7 @@ class Familiar(models.Model):
     numero_pasaporte = models.IntegerField()
 
 def __str__(self): #dunder method - para que cdo haga un print me aparezca el return
-      return f"{self.nombre}, {self.numero_pasaporte}, {self.id}"
+      return f"{self.nombre}, {self.numero_pasaporte}, {self.direccion}, {self.id}"
 
 class Dummy(models.Model):
       nombre = models.CharField(max_length=10)
